@@ -1,5 +1,6 @@
 # thought-collector
 
+
 ## Project setup
 ```
 npm install
