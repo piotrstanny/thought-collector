@@ -1,15 +1,15 @@
 <template>
 <div>
 	<form action="">
-		<div class="row">
-			<div class="col-sm-6 offset-sm-3 form-group">
+		<div class="row justify-content-center">
+			<div class="col-sm-6 form-group">
 				<label for="quote">Add new Quote:</label>
-				<textarea name="quote" id="quote" cols="10" rows="5" class="form-control" v-model="quote"></textarea>
+				<textarea name="quote" id="quote" cols="10" rows="4" class="form-control" v-model="quote"></textarea>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-sm-6 offset-sm-3 form-group">
-				<button type="button" class="btn btn-primary" @click="createNew">Add Quote</button>
+		<div class="row justify-content-center">
+			<div class="col-sm-6 form-group">
+				<button type="button" class="btn btn-dark" @click="createNew">Add Quote</button>
 			</div>
 		</div>
 	</form>
@@ -33,5 +33,10 @@ export default {
 </script>
 
 <style scoped>
-
+form {
+	justify-content: center;
+    text-align: center;
+    justify-items: center;
+	margin: 0 auto;
+}
 </style>

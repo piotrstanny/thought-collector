@@ -1,5 +1,5 @@
 <template>
-    <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="col-sm-6 col-md-3">
         <div class="panel panel-default">
             <div class="panel-body quote">
                 <slot></slot>
@@ -13,6 +13,7 @@
 
 <style scoped>
 .panel-body {
+    padding: 15px;
     font-size: 14px;
     color: rgb(33, 71, 129);
     background-image: linear-gradient(to top left, rgb(233, 238, 255), rgb(184, 215, 255));
