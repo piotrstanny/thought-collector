@@ -8,7 +8,8 @@
 				<div class="alert alert-danger">Info: Click on the Quote to delete it</div>
 			</div>
 		</div>
-        <QuoteGrid :quotes="quotes"/>
+        <hr>
+        <QuoteGrid :quotes="quotes" @quoteDeleted="deleteQuote($event)"></QuoteGrid>
 
     </div>
 </template>
@@ -33,6 +34,9 @@
         methods: {
             newQuote(quote) {
                 this.quotes.push(quote)
+            },
+            deleteQuote(index) {
+                this.quotes.splice(index, 1);
             }
         }
     }
@@ -47,5 +51,6 @@ h1 {
     text-align: center;
     justify-items: center;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 </style>

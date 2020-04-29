@@ -17,6 +17,8 @@
     font-size: 14px;
     color: rgb(33, 71, 129);
     background-image: linear-gradient(to top left, rgb(233, 238, 255), rgb(184, 215, 255));
+    border: 1px solid rgb(188, 213, 245);
+    border-radius: 5px;;
 }
 .quote {
     cursor: pointer
