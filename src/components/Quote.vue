@@ -21,6 +21,6 @@
     cursor: pointer
 }
 .quote:hover {
-    background-color: rgb(247, 162, 162);
+    background-image: linear-gradient(to top left, rgb(255, 233, 233), rgb(185, 57, 57));
 }
 </style>

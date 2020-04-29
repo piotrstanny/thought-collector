@@ -2,8 +2,8 @@
     <div class="container">
         <h1>Quote Collector</h1>
         <p>Collect your favourite quotes!</p>
+        <NewQuote @quoteAdded="newQuote($event)"/>
         <QuoteGrid :quotes="quotes"/>
-        <NewQuote/>
     </div>
 </template>
 
@@ -22,6 +22,11 @@
                 quotes: [
                     'What gets measured gets managed. Pay attention to all factors, that\'s the way to succeed.'
                 ]
+            }
+        },
+        methods: {
+            newQuote(quote) {
+                this.quotes.push(quote)
             }
         }
     }
