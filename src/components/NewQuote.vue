@@ -4,7 +4,7 @@
 		<div class="row justify-content-center">
 			<div class="col-sm-6 form-group">
 				<label for="quote">Write new Quote:</label>
-				<textarea name="quote" id="quote" cols="10" rows="4" class="form-control" v-model="quote"></textarea>
+				<textarea name="quote" id="quote" cols="10" rows="3" class="form-control" v-model="quote"></textarea>
 			</div>
 		</div>
 		<div class="row justify-content-center">

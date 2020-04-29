@@ -2,7 +2,9 @@
     <div class="col-sm-6 col-md-3">
         <div class="panel panel-default">
             <div class="panel-body quote">
-                <slot></slot>
+                <q>
+                    <slot></slot>
+                </q>
             </div>
         </div>
     </div>
