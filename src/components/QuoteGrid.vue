@@ -19,6 +19,6 @@ export default {
 
 <style scoped>
     div {
-        padding-top: 50px;
+        padding-top: 30px;
     }
 </style>
