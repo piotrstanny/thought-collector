@@ -1,5 +1,5 @@
 # thought-collector
-
+Deployed via Netlify: https://quizzical-hugle-ddd44d.netlify.app/ 
 
 ## Project setup
 ```
